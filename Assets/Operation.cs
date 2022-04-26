@@ -13,9 +13,10 @@ public class Operation: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             pos.x = +1;
         }
     }
 }
+ 
